@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+*{
+    font-size: 62.5%;
+}
+
+body{
+    margin:0;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header{
+   padding: 1rem;
+}
+.header-nav{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+.header-nav--enlace{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav--enlace img{
+    border-radius: 50%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+/* logo */
+.main-logo{
+    margin: 0 auto;
+}
+.main-input{
+    margin: 0 auto;
+
+}
+
+
+/* Buscador */
+
+.buscador{
+    margin: 0 auto;
+}
+
+.main-input{
+display: flex;
+justify-content:space-between;
+border: 1px solid grey;
+border-radius: 2rem;
+align-items: center;
+width: 50rem;
+height: 4rem;
+padding: 1rem;
+margin-top:2rem ;
+}
+
+.main-input svg{
+    width: 30px;
+    height: 30px;
+}
+.main-input input {
+    border: none;
+}
+
+.main-button{
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.main-button button{
+    padding:1rem;
+    font-size: 1rem;
+}
+
+.footer{
+ display: flex;
+ flex-direction: column;   
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+}
+
+.footer-pais{
+    font-size: 1rem;
+    background-color: #70757a;
+    padding: 1rem;
+    
+}
+
+.footer-contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #70757a;
+    border-top: 1px solid #dadce0;
+  
+}
+.footer-enlaces{
+    display: flex;
+    gap: 2rem;
+}
+.footer-enlaces a{
+font-size: 2rem;
+text-decoration: none;
+color: white;
+}
